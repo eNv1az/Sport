@@ -1,17 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ruslan+Display&display=swap');
 
-
-header {
-    margin: 0px;
-    border-style: solid;
-    height: 40px;
-    background-color: black;
-}
-
 body {
     background-size: 100%;
     background-repeat: no-repeat;
-    background-image: url(../img/runner.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.712), rgba(255, 255, 255, 0)), url(../img/runner.webp);
     background-color: rgb(0, 0, 0);
     margin: 0px 0px 200px 0px;
 }
@@ -39,6 +31,7 @@ h1 {
 }
 
 p {
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
     text-indent: 20px;
 }
 
@@ -48,6 +41,8 @@ p {
 }
 
 .cine {
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
+    background: linear-gradient(rgba(54, 33, 33, 0.808), rgba(58, 0, 10, 0.649)), url(../img/pink.jpg);
     font-size: 30px;
     position: absolute;
     padding: 15px;
@@ -80,6 +75,8 @@ span {
 }
 
 .pentru {
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
+    background: linear-gradient(rgba(0, 0, 0, 0.437), rgba(255, 98, 80, 0.448));
     padding: 15px;
     text-indent: 20px;
     font-size: 30px;
@@ -90,9 +87,16 @@ span {
     position: absolute;
     top: 165%;
 }
-.inca{
+
+.inca {
+    background-position: absolute;
+    top: 10%;
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.456), rgba(0, 0, 0, 0.445)), url(../img/davidgg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
     text-indent: 20px;
-    color: coral;
+    color: rgb(255, 173, 143);
     padding: 15px;
     text-align: justify;
     font-size: 30px;
@@ -104,12 +108,18 @@ span {
     border-color: rgba(255, 255, 255, 0.196);
     height: 800px;
 }
-iframe{
+
+iframe {
     margin: auto;
 }
-.audio{
+
+.audio {
+    color: rgb(255, 173, 143);
+    background: linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.808), rgba(0, 0, 0, 0.649)), url(../img/run.avif);
     text-indent: 20px;
-    color: coral;
+    background-size: 100%;
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
+    background-repeat: no-repeat;
     padding: 15px;
     font-size: 30px;
     position: absolute;
@@ -119,4 +129,14 @@ iframe{
     border-radius: 0px 0px 40px 0px;
     border-color: rgba(255, 255, 255, 0.196);
     height: 800px;
+}
+
+audio {
+    margin-top: 0px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.audioh1 {
+    color: rgb(231, 74, 16);
 }
